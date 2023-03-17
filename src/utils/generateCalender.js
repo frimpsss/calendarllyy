@@ -15,7 +15,7 @@ export const genetate = (month = dayjs().month(), year = dayjs().year()) => {
     arrayofDates.push({
       date: firstDateOfMonth.date(i),
       currentMonth: true,
-      today:
+      istoday:
         firstDateOfMonth.date(i).toDate().toDateString() ===
         dayjs().toDate().toDateString(),
     }); 
